@@ -129,3 +129,27 @@ export const WORK_EXPERIENCES: WorkExperience[] = [
   }
 
 ]
+
+import type { Education } from './types';
+export const EDUCATION: Education[] = [
+  {
+    id: 1,
+    school: "Monash University",
+    degree: "Data Analytics and Visualization Bootcamp",
+    yearGraduated: "2024"
+  },
+  {
+    id: 2,
+    school: "National University of Singapore",
+    degree: "Master of Computing",
+    yearGraduated: "2010"
+  },
+  {
+    id: 3,
+    school: "National University of Singapore",
+    degree: "Bachelor of Computer Engineering (Honors)",
+    yearGraduated: "2008"
+  }
+  
+  
+]

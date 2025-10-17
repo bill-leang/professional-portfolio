@@ -16,7 +16,8 @@ const Hero: React.FC = () => {
   }, []);
 
   return (
-    <section id="home" className="container mx-auto px-6 py-24 min-h-screen flex items-center">
+    <section id="home" className="container mx-auto px-6 py-6 min-h-screen flex items-center">
+      
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div className="flex flex-col gap-4">
           <h1 className="text-4xl md:text-6xl font-serif font-bold text-slate-800">

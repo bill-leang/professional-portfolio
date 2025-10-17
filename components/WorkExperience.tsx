@@ -14,9 +14,9 @@ const WorkExperience: React.FC = () => {
   };
 
   return (
-    <section id="experience" className="bg-slate-50 py-20">
+    <section id="experience" className="bg-slate-50 py-10 md:py-12">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-serif font-bold text-center text-slate-800 mb-12">
+        <h2 className="text-3xl md:text-4xl font-serif font-bold text-center text-slate-800 mb-8">
           Work Experience
         </h2>
         <div className="max-w-4xl mx-auto space-y-3">
