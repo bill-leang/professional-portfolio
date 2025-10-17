@@ -19,3 +19,18 @@ export interface SkillCategory {
   title: string;
   skills: string[];
 }
+
+export interface WorkExperience {
+  id: number;
+  role: string;
+  company: string;
+  yeasWorked: string;
+  description: string;
+}
+
+export interface Education {
+  id: number;
+  degree: string;
+  school: string;
+  yearGraduated: string;
+}

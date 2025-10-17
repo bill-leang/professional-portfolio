@@ -2,6 +2,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import WorkExperience from './components/WorkExperience';
 import Projects from './components/Projects';
 import Articles from './components/Articles';
 import Skills from './components/Skills';
@@ -14,6 +15,7 @@ const App: React.FC = () => {
       <Header />
       <main>
         <Hero />
+        <WorkExperience />
         <Projects />
         <Skills />
         <Articles />
