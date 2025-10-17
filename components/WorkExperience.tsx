@@ -6,13 +6,10 @@ const WorkExperience: React.FC = () => {
 
   const toggleCard = (id: number) => {
     setExpandedCards(prev => {
-      const newSet = new Set(prev);
-      if (newSet.has(id)) {
-        newSet.delete(id);
-      } else {
-        newSet.add(id);
-      }
-      return newSet;
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
     });
   };
 
@@ -32,14 +29,15 @@ const WorkExperience: React.FC = () => {
                 onClick={() => toggleCard(experience.id)}
                 className="w-full p-4 text-left focus:outline-none focus:ring-2 focus:ring-slate-300 focus:ring-inset"
               >
-                <div className="flex justify-between items-center">
-                  <div className="flex-1">
-                    <h3 className="text-xl font-serif font-bold text-slate-800 mb-1">
+                <div className="flex w-full items-center justify-between gap-4">
+                  <div className="min-w-0">
+                    <h3 className="text-xl font-serif font-bold text-slate-800 truncate">
                       {experience.role}
+                      <span className="mx-2 text-slate-400">•</span>
+                      <span className="font-normal text-slate-600">{experience.company}</span>
                     </h3>
-                    <p className="text-slate-600 font-medium">{experience.company}</p>
                   </div>
-                  <div className="flex items-center space-x-4">
+                  <div className="flex items-center shrink-0 gap-4">
                     <p className="text-sm text-slate-500">{experience.yearsWorked}</p>
                     <svg
                       className={`w-5 h-5 text-slate-400 transition-transform duration-200 ${
@@ -49,17 +47,12 @@ const WorkExperience: React.FC = () => {
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                     >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M19 9l-7 7-7-7"
-                      />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                     </svg>
                   </div>
                 </div>
               </button>
-              
+
               {expandedCards.has(experience.id) && (
                 <div className="px-4 pb-4 border-t border-slate-100">
                   <div className="pt-3">
