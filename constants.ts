@@ -82,14 +82,14 @@ export const WORK_EXPERIENCES: WorkExperience[] = [
     role: 'IT Analyst',
     company: 'Pall Corporation Australia',
     yearsWorked: 'Jul 2024 - Nov 2024',
-    description: 'As an IT Analyst, I was responsible for the smooth day-to-day IT operations. An accomplishment I am proud of was helping to provide clarity to the SLA (Service Level Agreement) performance by creating an interactive PowerBI report for the regional manager and the IT teams. I also applied planning and execution skills to successfully relocate a server room and got it up and running on the same day.'
+    description: 'Oversaw daily IT operations and enhanced performance tracking by developing an interactive Power BI dashboard that increased SLA transparency for management. Demonstrated strong project management skills by coordinating a full server room relocation and restoring full functionality within the same day.'
   },
   {
     id: 2,
     role: 'IT Support Analyst',
     company: 'WebPal Pty Ltd Australia',
     yearsWorked: 'Jan 2024 - May 2024',
-    description: 'As an IT Support Analyst, I was responsible for resolving level 1 and 2 tickets raised by customers in a ticketing system promptly. I also took proactive steps to monitor and troubleshoot client systems to ensure they are secured and running smoothly.'
+    description: 'Delivered timely resolutions for Level 1 and 2 customer tickets, improving service response times. Proactively identified and addressed system issues to enhance security and maintain smooth client operations.'
   },
   
   {
@@ -97,35 +97,35 @@ export const WORK_EXPERIENCES: WorkExperience[] = [
     role: 'IT Support Volunteer',
     company: 'Cambodian Association of Victoria',
     yearsWorked: 'Jun 2023 - Aug 2023',
-    description: 'Supported the IT work in the association through troubleshooting issues and educating users.'
+    description: 'Delivered end-user IT support by troubleshooting hardware, software, and network issues while improving staff digital literacy through one-on-one training and guidance.'
   },
   {
     id: 4,
     role: 'IT Manager',
     company: 'MSP Lubricant Services Cambodia',
     yearsWorked: 'Jan 2013 - Apr 2023',
-    description: 'Managed the business and IT infrastructure of a workshop, including sales, marketing, operation, inventory management and supervision of a group of about 10 staff members.'
+    description: 'Led end-to-end business and IT operations for a workshop, streamlining sales, marketing, and inventory management processes. Supervised a 10-member team and drove revenue growth from zero to over $250K per year through strategic planning and operational efficiency.'
   },
   {
     id: 5,
     role: 'IT Analyst',
     company: 'SingTel Singapore',
     yearsWorked: 'Aug 2010 - Dec 2012',
-    description: 'Developed and maintained a JEE web service-based enterprise-wide order processing application to enhance productivity through automation of orders in a team.'
+    description: 'Built and supported a JEE web service–based enterprise order management system that automated manual order processes, significantly enhancing team efficiency and order turnaround time.'
   },
   {
     id: 6,
     role: 'Lab Tutor',
     company: 'National University of Singapore',
     yearsWorked: 'Jul 2009 - Aug 2010',
-    description: 'Conducted lab sessions, grading for freshman programming classes.'
+    description: 'Facilitated hands-on programming labs for first-year students and assessed their assignments, contributing to improved understanding of fundamental coding principles.'
   },
   {
       id: 7,
       role: 'System Analyst',
       company: 'PSA Singapore',
       yearsWorked: 'Jul 2007 - Aug 2008',
-      description: 'Completed two J2EE projects: a major upgrade of an operationally critical system and migration of system from Weblogic 8 to Weblogic 10.'
+      description: 'Led the development and deployment of two J2EE initiatives: a major upgrade of an operationally critical system and a seamless migration from WebLogic 8 to WebLogic 10, enhancing reliability and maintainability.'
   }
 
 ]
