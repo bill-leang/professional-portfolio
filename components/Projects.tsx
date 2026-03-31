@@ -49,7 +49,7 @@ const Projects: React.FC = () => {
             Interactive Power BI dashboard analysing 100K+ hospital encounters 
             to identify readmission risk factors across demographics and treatment patterns.
           </p>
-          <iframe title="Project1_DiabetesHospitalisn_PUBLISHED" width="100%" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiMWUzZTRjYTYtNzBmZC00ZTY3LWE3MDUtZmQzNzY0NjQxNGJhIiwidCI6IjVmODIxZDFlLTNlMjEtNGQ0NC1iNGU5LWFiNjY5OWY4MDJjMCJ9" frameborder="0" allowFullScreen="true"></iframe>
+          <iframe title="Project1_DiabetesHospitalisn_PUBLISHED" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMWUzZTRjYTYtNzBmZC00ZTY3LWE3MDUtZmQzNzY0NjQxNGJhIiwidCI6IjVmODIxZDFlLTNlMjEtNGQ0NC1iNGU5LWFiNjY5OWY4MDJjMCJ9&pageName=f04c2a695cde92115eb0" frameborder="0" allowFullScreen="true"></iframe>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
