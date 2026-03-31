@@ -39,6 +39,19 @@ const Projects: React.FC = () => {
         <h2 className="text-3xl md:text-4xl font-serif font-bold text-center text-slate-800 mb-12">
           My Projects
         </h2>
+
+        {/* embedding a Power BI dashboard for a healthcare analytics project */}
+  <div className="mb-12">
+    <h3 className="text-xl font-serif font-bold text-slate-800 mb-2">
+      Healthcare Analytics — Diabetes Readmission Dashboard
+    </h3>
+    <p className="text-slate-600 mb-4">
+    Interactive Power BI dashboard analysing 100K+ hospital encounters 
+    to identify readmission risk factors across demographics and treatment patterns.
+    </p>
+    <iframe title="Project1_DiabetesHospitalisn_PUBLISHED" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMWUzZTRjYTYtNzBmZC00ZTY3LWE3MDUtZmQzNzY0NjQxNGJhIiwidCI6IjVmODIxZDFlLTNlMjEtNGQ0NC1iNGU5LWFiNjY5OWY4MDJjMCJ9" frameborder="0" allowFullScreen="true"></iframe>
+    </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {PROJECTS.map((project) => (
             <ProjectCard key={project.id} project={project} />
