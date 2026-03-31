@@ -7,7 +7,7 @@ import { ArrowRightIcon } from './icons';
 interface ProjectCardProps {
   project: Project;
 }
-
+{/* v2 */}
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden transform hover:-translate-y-2 transition-transform duration-300 ease-in-out group border border-slate-200">
