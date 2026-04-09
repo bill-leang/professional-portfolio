@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import WorkExperience from './components/WorkExperience';
@@ -11,6 +11,18 @@ import Footer from './components/Footer';
 import Education from './components/Education';
 
 const App: React.FC = () => {
+  useEffect(() => {                              // add this block
+    const hash = window.location.hash;           // after this line
+    if (hash) {                                  //
+      setTimeout(() => {                         //
+        const element = document.querySelector(hash);  //
+        if (element) {                           //
+          element.scrollIntoView({ behavior: 'smooth' });  //
+        }                                        //
+      }, 500);                                   //
+    }                                            //
+  }, []);     
+
   return (
     <div className="font-sans">
       <Header />
