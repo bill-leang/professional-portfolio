@@ -40,10 +40,21 @@ const Projects: React.FC = () => {
           My Projects
         </h2>
 
-        {/* embedding a Power BI dashboard for a healthcare analytics project */}
+        {/* embedding a Power BI dashboard for analytics projects */}
+          <div className="mb-12">
+          <h3 className="text-xl font-serif font-bold text-slate-800 mb-2">
+            Victorian Road Crash Interactive Dashboard
+          </h3>
+          <p className="text-slate-600 mb-4">
+    Interactive Power BI dashboard analysing Victorian road crash data 
+    to identify crash hotspots, severity trends, and high-risk LGAs across Victoria.
+          </p>
+          <iframe title="SDS_road_accidents" width="100%" height="800" src="https://app.powerbi.com/view?r=eyJrIjoiZjk3ODZkYjEtOTMyZi00YTFkLTk5NmYtODMxYjk2NDdlOWFiIiwidCI6IjVmODIxZDFlLTNlMjEtNGQ0NC1iNGU5LWFiNjY5OWY4MDJjMCJ9&pageName=841a5022b9ff9d3bd07a" frameborder="0" allowFullScreen="true"></iframe>
+        </div>
+
         <div className="mb-12">
           <h3 className="text-xl font-serif font-bold text-slate-800 mb-2">
-            Healthcare Analytics — Diabetes Readmission Dashboard
+            Healthcare Analytics — Diabetes Readmission Interactive Dashboard
           </h3>
           <p className="text-slate-600 mb-4">
             Interactive Power BI dashboard analysing 100K+ hospital encounters 
