@@ -133,7 +133,13 @@ export const WORK_EXPERIENCES: WorkExperience[] = [
 import type { Education } from './types';
 export const EDUCATION: Education[] = [
   {
-    id: 1,
+    id: 4,
+    school: "Microsoft",
+    degree: "PL-300 Power BI Data Analyst Associate Certification",
+    yearGraduated: "2025"
+  },
+  {
+    id: 3,
     school: "Monash University",
     degree: "Data Analytics and Visualization Bootcamp",
     yearGraduated: "2024"
@@ -145,11 +151,11 @@ export const EDUCATION: Education[] = [
     yearGraduated: "2010"
   },
   {
-    id: 3,
+    id: 1,
     school: "National University of Singapore",
     degree: "Bachelor of Computer Engineering (Honors)",
     yearGraduated: "2008"
   }
-  
+   
   
 ]

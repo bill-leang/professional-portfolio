@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { GithubIcon, LinkedinIcon, YoutubeIcon, MailIcon } from './icons';
 import profilePic from '../src/assets/profile.jpeg'; // added import
 
-const titles = ['Data Analyst', 'Data Scientist', 'AI Engineer'];
+const titles = ['BI Analyst', 'Power BI Developer','Data Analyst'];
 
 const Hero: React.FC = () => {
   const [currentTitleIndex, setCurrentTitleIndex] = useState(0);
